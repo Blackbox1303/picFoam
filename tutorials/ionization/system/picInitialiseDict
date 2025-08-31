@@ -38,7 +38,7 @@ EquipartitionCoeffs
 }
 
 initalizeCollisionModels    true;
-solveMaxwellEquations       false;
+solveMaxwellEquations       true;
 initalizeLeapFrog           false;
 clearParticles              true;
 
