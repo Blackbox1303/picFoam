@@ -17,19 +17,19 @@ FoamFile
 
 dimensions      [1 0 -3 0 0 0 0];
 
-internalField   uniform 0;
+internalField   uniform 1.6e-19;
 
 boundaryField
 {
     leftBoundary
     {
         type            calculated;
-        value           uniform 0;
+        value           uniform 1.6e-19;
     }
     rightBoundary
     {
         type            calculated;
-        value           uniform 0;
+        value           uniform 1.6e-19;
     }
     emptyBoundary
     {
