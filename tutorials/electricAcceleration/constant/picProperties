@@ -48,6 +48,8 @@ moleculeProperties
     }
 }
 
+//what about ions?
+
 BoundaryModels
 {
     WallReflectionModel SpecularReflection;
@@ -63,7 +65,7 @@ BoundaryModels
 
 ParticleMerging none;
 
-MaxwellSolver   none;
+MaxwellSolver   ElectroStatic; //changed from none to electrostatic
 
 ParticlePusher  Boris;
 
